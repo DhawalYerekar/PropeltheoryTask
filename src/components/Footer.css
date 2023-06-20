@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.footer {
+  background: #620436;
+  height: 30rem;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.box-container {
+  height: 8rem;
+  width:50rem;
+  background: #e08fba;
+  margin-left: 18rem;
+  border-radius: 1rem;
+}
+.box-container h1{
+  margin-left: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+.box-container button{
+  background: black;
+  color:white ;
+  padding: .5rem;
+  font-size: .8rem;
+  margin-left: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: none;
+
+}
+
+
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-top: 8rem; */
+}
+
+
+
+.footer__copyright {
+  color: white;
+  background: #620436;
+  text-align: center;
+}
+.footer__copyright small{
+  margin-bottom: 3rem;
+}
+
+.footer__socials {
+margin-left: 7rem;
+margin-top: 12rem;
+  display: block;
+  justify-content: left;
+  gap: 3rem;
+}
+
+.footer__socials a {
+  color:white;
+  margin: .5rem;
+}
+
+.footer__socials p{
+  font-size: .8rem;
+  color: white;
+}

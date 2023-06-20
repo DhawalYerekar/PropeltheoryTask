@@ -1,0 +1,49 @@
+.logo{
+    order: 1;
+    font-size: 2.3rem;
+    
+}
+.navbar{
+    width: 100%;
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+    
+}
+
+
+.navbar-container{
+    display: flex;
+    height: max-content;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin-left: 7rem;
+    color: #620436;
+}
+
+/* display: flex;
+justify-content: space-between;
+height: 64px;
+align-items: center; */
+
+.navbar ul {
+order: 2;
+display: flex;
+
+}
+.navbar li {
+    list-style: none;
+    margin-left: 1.5rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    
+}

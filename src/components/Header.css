@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.header {
+  height: 100vh;
+}
+
+.header-container {
+  height: 10rem;
+  width: 15rem;
+  margin-left: 7rem;
+position: absolute;
+top:8rem;
+
+  /* align-items: center; */
+}
+.img-container {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  overflow: hidden;
+  
+}
+
+.header-container h1 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.header-container p {
+  align-items: self-start;
+  color: black;
+}
+
+.form-container {
+  height: 25rem;
+  width: 33rem;
+  padding: 2rem;
+  position: absolute;
+  text-align: center;
+  background-color: #620436;
+  top: 8rem;
+  right: 7rem;
+  border-radius: .5rem;
+  
+  
+  
+}
+
+.form-container h1 {
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  text-align: left;
+  margin-top: .2rem;
+  
+}
+
+
+.form-container input {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: .4rem;
+  margin-top: .7rem;
+  border: none;
+  padding: 3px;
+  text-align: left;
+
+}
+
+.form-container textarea {
+  width: 100%;
+  border-radius: .4rem;
+  margin-top: 1rem;
+}
